@@ -44,7 +44,8 @@
     <script src="js/popup.js"></script>
     <script src="js/javascript.js"></script>
     <script src="js/responsiveTitle.js"></script>
-    <script src="js/splitImageSlider.js"></script>
+    <script src="js/imageSlider.js"></script>
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/header.css">
@@ -233,7 +234,38 @@
                     Use the sliders below to compare different aspects of Grass LOD generation. Select different images for each side of the slider to create custom comparisons.
                     </p>
 
-                    <div class="image-slider grass-comparison-slider">
+                    <div class="image-slider custom-comparison-slider grass-comparison-slider" data-default-left="vanilla" data-default-right="grasslod">
+                        <script type="application/json">
+                        [
+                            {
+                                "value": "1",
+                                "label": "Set 1 - Whiterun",
+                                "images": {
+                                    "vanilla": "./img/Grass LOD/Comparisons/1 - Vanilla.webp",
+                                    "dyndolod": "./img/Grass LOD/Comparisons/1 - DynDOLOD.webp",
+                                    "grasslod": "./img/Grass LOD/Comparisons/1 - DynDOLOD + Grass LOD.webp"
+                                }
+                            },
+                            {
+                                "value": "2",
+                                "label": "Set 2 - The Reach",
+                                "images": {
+                                    "vanilla": "./img/Grass LOD/Comparisons/2 - Vanilla.webp",
+                                    "dyndolod": "./img/Grass LOD/Comparisons/2 - DynDOLOD.webp",
+                                    "grasslod": "./img/Grass LOD/Comparisons/2 - DynDOLOD + Grass LOD.webp"
+                                }
+                            },
+                            {
+                                "value": "3",
+                                "label": "Set 3 - Eastmarch",
+                                "images": {
+                                    "vanilla": "./img/Grass LOD/Comparisons/3 - Vanilla.webp",
+                                    "dyndolod": "./img/Grass LOD/Comparisons/3 - DynDOLOD.webp",
+                                    "grasslod": "./img/Grass LOD/Comparisons/3 - DynDOLOD + Grass LOD.webp"
+                                }
+                            }
+                        ]
+                        </script>
                         <div class="slider-select-container" style="display: flex; justify-content: space-between; gap: 10px;">
                             <div style="flex: 1;">
                                 <label for="left-select" style="display: block; margin-bottom: 5px; color: white;">Left Image:</label>
@@ -254,14 +286,14 @@
                         </div>
                         <div class="slider-container">
                             <div class="slider-before">
-                                <img class="slider-img" src="./img/Grass LOD/Comparisons/1 - Vanilla.webp" alt="Before image">
+                                <img class="slider-img" src="" alt="Before image">
                             </div>
-                            <img class="slider-img slider-after" src="./img/Grass LOD/Comparisons/1 - DynDOLOD + Grass LOD.webp" alt="After image">
+                            <img class="slider-img slider-after" src="" alt="After image">
                             <div class="slider-handle"></div>
                         </div>
                         <div class="slider-labels">
-                            <span class="slider-label-before">Before</span>
-                            <span class="slider-label-after">After</span>
+                            <span class="slider-label-before"></span>
+                            <span class="slider-label-after"></span>
                         </div>
                     </div>
                 </div>
