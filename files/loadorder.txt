@@ -14,6 +14,7 @@ Disable USSEP Book.esp
 Misc Bugfix Compilation.esp
 TrueHUD.esl
 Skyrim Extended Cut - Saints and Seducers.esp
+DIAL.esp
 DynDOLOD.esm
 Lore-Friendly Redbelly Mine Fix.esp
 Rude Imperial Soldiers Fix.esp
@@ -31,20 +32,17 @@ BetterThirdPersonSelection.esp
 TavernAIFix.esp
 Sensible Oculory Solution - Logical Mzark Puzzle.esp
 NiftyAITweaksAIO.esp
-SurvivalModeImproved.esp
-Survival Mode Improved - SKSE - USSEP Patch.esp
-Simple Bow Stamina.esp
 TrueDirectionalMovement.esp
 Animated Interactions.esp
 FNIS.esp
+SurvivalModeImproved.esp
+Survival Mode Improved - SKSE - USSEP Patch.esp
+Simple Bow Stamina.esp
 CutContentRestoration.esp
 SMIM-SE-Merged-All.esp
 Azurite Weathers III.esp
 Azurite Weathers - MCM.esp
 Azurite III - HDR.esp
-DIAL.esp
-DIAL - USSEP Patch.esp
-DIAL - Misc Bugfix Compilation Patch.esp
 water mod.esp
 UMW - Vanilla Additions.esp
 A Clear Map of Skyrim.esp
