@@ -16,10 +16,6 @@ TrueHUD.esl
 Skyrim Extended Cut - Saints and Seducers.esp
 DIAL.esp
 DynDOLOD.esm
-Lore-Friendly Redbelly Mine Fix.esp
-Rude Imperial Soldiers Fix.esp
-Jorn Fix.esp
-Veren Duleri and Thorek Fix.esp
 Dragon Leveled List Fixes.esp
 bleedoutFix.esp
 zeroBountyHostilityFix.esp
@@ -33,10 +29,10 @@ TavernAIFix.esp
 Sensible Oculory Solution - Logical Mzark Puzzle.esp
 NiftyAITweaksAIO.esp
 TrueDirectionalMovement.esp
-Animated Interactions.esp
 FNIS.esp
 SurvivalModeImproved.esp
 Survival Mode Improved - SKSE - USSEP Patch.esp
+SMI SKSE - Skyrim Misc Bugfix Compilation Patch.esp
 Simple Bow Stamina.esp
 CutContentRestoration.esp
 SMIM-SE-Merged-All.esp
