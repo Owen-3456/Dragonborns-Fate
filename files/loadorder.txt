@@ -39,6 +39,7 @@ SMIM-SE-Merged-All.esp
 Azurite Weathers III.esp
 Azurite Weathers - MCM.esp
 Azurite III - HDR.esp
+DIAL_AzuriteIII_Patch.esp
 water mod.esp
 UMW - Vanilla Additions.esp
 A Clear Map of Skyrim.esp
